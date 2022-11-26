@@ -16,7 +16,7 @@ assign {c_out_w,sum_out_w}=a_in+b_in+c_in;
 always@(posedge clk)begin
     if(!rst_n)  begin
         c_out<=1'b0;
-        sum_out_w<=32'b0;
+        sum_out<=32'b0;
     end
     else    begin
        c_out<=c_out_w;
