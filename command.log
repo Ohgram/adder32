@@ -1,6 +1,6 @@
 #@ # 
 #@ # Running dc_shell Version L-2016.03-SP1 for linux64 -- Apr 18, 2016
-#@ # Date:   Sat Nov 26 21:37:18 2022
+#@ # Date:   Sat Nov 26 21:50:45 2022
 #@ # Run by: hyx@hLINUX
 #@ 
 
@@ -5435,3 +5435,38 @@ source /home/hyx/software/dc2016/admin/setup/.synopsys_dc.setup
 #@ # -- End source /home/hyx/software/dc2016/admin/setup/.synopsys_dc.setup
 
 read_verilog adder32.v
+check_library
+check_design
+set_app_var link_library ../lib/typical.db
+check_design
+check_library
+check_timing
+create_clock "clk" -period 10
+check_clock
+check_clocks
+set cPorts [remove_from_collection [all_inputs] clk]
+set_input_delay -max 3 -clock clk [remove_from_collection [all_inputs] clk]
+check_clocks
+set_output_delay -max 2.5 -clock clk [all_outputs]
+check_clocks
+check_timing
+check_design
+compile
+set_app_var target_library ../lib/typical.db
+compile
+write_sdc adder32.sdc
+create_clock "clk" -period 5
+check_clock
+check_clocks
+report_clock
+check_design
+compile
+report_timing
+create_clock "clk" -period 2
+compile
+report_timing
+report_clocks
+report_area
+write_sdf adder32.sdf
+write_file -format verilog -output adder32_netlist.v
+exit

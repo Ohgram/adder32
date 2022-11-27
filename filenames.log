@@ -83,5 +83,13 @@
 /home/hyx/software/dc2016/auxx/gui/common/schematic/DialogPathSchematicAddPaths.tcl
 /home/hyx/software/dc2016/libraries/syn/gtech.db
 /home/hyx/software/dc2016/libraries/syn/standard.sldb
-/home/hyx/verilog/adder32/adder32.v
-/home/hyx/verilog/adder32/adder32.v
+/home/hyx/verilog/adder32/rtl/adder32.v
+/home/hyx/verilog/adder32/rtl/adder32.v
+/home/hyx/verilog/adder32/lib/typical.db
+/home/hyx/verilog/adder32/lib/typical.db
+/home/hyx/synopsys_cache_L-2016.03-SP1/DW01/DW01_add/rpl/33/typical_3431/element.ddc
+/home/hyx/synopsys_cache_L-2016.03-SP1/DW01/DW01_NAND2/str/typical_3431/element.ddc
+/home/hyx/verilog/adder32/lib/typical.db
+/home/hyx/synopsys_cache_L-2016.03-SP1/DW01/DW01_add/cla/33/typical_3431_8167_4794/element.ddc
+/home/hyx/synopsys_cache_L-2016.03-SP1/DW01/DW01_add/cla/33/typical_3431/element.ddc
+/home/hyx/verilog/adder32/lib/typical.db
