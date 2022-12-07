@@ -1,0 +1,106 @@
+0 
+22
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/home/hyx/software/vcs2018/vcs/O-2018.09-SP2/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=
+-Mexternalobj=
+-Mldflags=-L/usr/lib/x86_64-linux-gnu -L/lib/x86_64-linux-gnu -Wl,--no-as-needed -rdynamic
+-Mobjects= /home/hyx/software/vcs2018/vcs/O-2018.09-SP2/linux64/lib/libvirsim.so /home/hyx/software/vcs2018/vcs/O-2018.09-SP2/linux64/lib/liberrorinf.so /home/hyx/software/vcs2018/vcs/O-2018.09-SP2/linux64/lib/libsnpsmalloc.so /home/hyx/software/vcs2018/vcs/O-2018.09-SP2/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/home/hyx/software/vcs2018/vcs/O-2018.09-SP2/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=-ldl
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/home/hyx/software/vcs2018/vcs/O-2018.09-SP2/include
+-full64
+-gen_obj
+-picarchive
+-sverilog
+/home/hyx/software/vcs2018/vcs/O-2018.09-SP2/linux64/bin/vcs1
+trysystemverilog.sv
+71
+sysc_uni_pwd=/home/hyx/verilog/adder32/rtl
+XMODIFIERS=@im=fcitx
+XDG_SESSION_TYPE=wayland
+XDG_SESSION_DESKTOP=ubuntu
+XDG_SESSION_CLASS=user
+XDG_RUNTIME_DIR=/run/user/1000
+XDG_MENU_PREFIX=gnome-
+XDG_DATA_DIRS=/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+XDG_CURRENT_DESKTOP=ubuntu:GNOME
+XDG_CONFIG_DIRS=/etc/xdg/xdg-ubuntu:/etc/xdg
+XAUTHORITY=/run/user/1000/.mutter-Xwaylandauth.UP6JW1
+WAYLAND_DISPLAY=wayland-0
+VTE_VERSION=6800
+VMR_MODE_FLAG=64
+VERDI_HOME=/home/hyx/software/verdi/verdi/Verdi_O-2018.09-SP2
+VERDI_DIR=/home/hyx/software/verdi/verdi/Verdi_O-2018.09-SP2
+VCS_TARGET_ARCH=amd64
+VCS_MODE_FLAG=64
+VCS_HOME=/home/hyx/software/vcs2018/vcs/O-2018.09-SP2
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+USERNAME=hyx
+UNAME=/bin/uname
+TOOL_HOME=/home/hyx/software/vcs2018/vcs/O-2018.09-SP2/linux64
+SYSTEMD_EXEC_PID=1974
+SYNOPSYS=/home/hyx/software/dc2016
+SSH_AUTH_SOCK=/run/user/1000/keyring/ssh
+SSH_AGENT_LAUNCHER=gnome-keyring
+SNPS_VCS_INTERNAL_UBUNTU_PRE_LDFLAGS= -Wl,--no-as-needed 
+SNPS_VCS_INTERNAL_LINKER_NEEDS_NO_AS_NEEDED=1
+SESSION_MANAGER=local/hLINUX:@/tmp/.ICE-unix/1974,unix/hLINUX:/tmp/.ICE-unix/1974
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+QT_IM_MODULE=fcitx
+QT_ACCESSIBILITY=1
+OVA_UUM=0
+NPI_PLATFORM=LINUX64_GNU_472
+NOVAS_INST_DIR=/home/hyx/software/verdi/verdi/Verdi_O-2018.09-SP2
+NOVAS_HOME=/home/hyx/software/verdi/verdi/Verdi_O-2018.09-SP2
+LIBRARY_PATH=/usr/lib/x86_64-linux-gnu
+LESSOPEN=| /usr/bin/lesspipe %s
+LESSCLOSE=/usr/bin/lesspipe %s %s
+LC_TIME=zh_CN.UTF-8
+LC_TELEPHONE=zh_CN.UTF-8
+LC_PAPER=zh_CN.UTF-8
+LC_NUMERIC=zh_CN.UTF-8
+LC_NAME=zh_CN.UTF-8
+LC_MONETARY=zh_CN.UTF-8
+LC_MEASUREMENT=zh_CN.UTF-8
+LC_IDENTIFICATION=zh_CN.UTF-8
+LC_ALL=C
+LC_ADDRESS=zh_CN.UTF-8
+IM_CONFIG_PHASE=1
+GTK_MODULES=gail:atk-bridge
+GTK_IM_MODULE=fcitx
+GNOME_TERMINAL_SERVICE=:1.860
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/c8238e88_1155_421e_a9c1_310604c32cc1
+GNOME_SHELL_SESSION_MODE=ubuntu
+GNOME_SETUP_DISPLAY=:1
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+GDMSESSION=ubuntu
+DVE_HOME=/home/hyx/software/vcs2018/vcs/O-2018.09-SP2/gui/dve
+DESKTOP_SESSION=ubuntu
+DC_HOME=/home/hyx/software/dc2016
+DBUS_STARTER_BUS_TYPE=session
+DBUS_STARTER_ADDRESS=unix:path=/run/user/1000/bus,guid=b89376db2989150736b29ebd6380543c
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus,guid=b89376db2989150736b29ebd6380543c
+CPATH=/usr/include/x86_64-linux-gnu
+COLORTERM=truecolor
+CLUTTER_IM_MODULE=fcitx
+0
+1
+1670423979 trysystemverilog.sv
+4
+1551422344 /home/hyx/software/vcs2018/vcs/O-2018.09-SP2/linux64/lib/libvirsim.so
+1551421792 /home/hyx/software/vcs2018/vcs/O-2018.09-SP2/linux64/lib/liberrorinf.so
+1551421768 /home/hyx/software/vcs2018/vcs/O-2018.09-SP2/linux64/lib/libsnpsmalloc.so
+1551421789 /home/hyx/software/vcs2018/vcs/O-2018.09-SP2/linux64/lib/libvfs.so
+1670423985 simv.daidir
+-1 partitionlib
